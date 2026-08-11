@@ -5,7 +5,6 @@ menu "ZMK Display Widgets"
 
 config ZMK_WIDGET_LAYER_STATUS
     bool "Widget for highest, active layer using small icons"
-    depends on !ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL
     select LV_USE_LABEL
 
 config ZMK_WIDGET_BATTERY_STATUS
